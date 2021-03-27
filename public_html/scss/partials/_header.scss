@@ -1,0 +1,41 @@
+$toggler-bg: $primary; /*ubaceno cisto da se vidi iako je $primary vec definisan u izmenama.*/ 
+
+header{
+    .navbar-brand{
+       max-width: 100px; 
+    }//ako neko odluci kasnije da ubaci veci logo da se fituje u ovih 100 px i da ne strci i ne zezne sve
+    .navbar-toggler{
+        border: none;
+        span{
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: $primary;
+            margin-bottom: 5px;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+            
+        }
+    } // navbar-toggler
+    
+    .navbar-nav{
+        background-color: #fff;
+        li{
+            @media(min-width:768px){
+                margin-left: 30px;
+            }
+            @media(min-width:992px){
+                margin-left: 51px;
+            }
+        a{
+            text-align: center;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-weight: 500;
+            padding: 10px;
+        }
+        }//li
+    }//navbar-nav
+}//header
+

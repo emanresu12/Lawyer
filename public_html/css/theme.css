@@ -3563,29 +3563,29 @@ textarea.form-control-lg {
     display: none; }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9); }
+  color: #1A77CD; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: rgba(0, 0, 0, 0.9); }
+    color: #1A77CD; }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.55); }
+  color: #1E1E1E; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(0, 0, 0, 0.7); }
+    color: #1A77CD; }
   .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9); }
+  color: #1A77CD; }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
+  color: #1E1E1E;
   border-color: rgba(0, 0, 0, 0.1); }
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%231E1E1E' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 .navbar-light .navbar-text {
-  color: rgba(0, 0, 0, 0.55); }
+  color: #1E1E1E; }
   .navbar-light .navbar-text a,
   .navbar-light .navbar-text a:hover,
   .navbar-light .navbar-text a:focus {
-    color: rgba(0, 0, 0, 0.9); }
+    color: #1A77CD; }
 
 .navbar-dark .navbar-brand {
   color: #fff; }
@@ -10176,5 +10176,33 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .size-4by3:after {
   padding-top: 75%; }
+
+/*ubaceno cisto da se vidi iako je $primary vec definisan u izmenama.*/
+header .navbar-brand {
+  max-width: 100px; }
+header .navbar-toggler {
+  border: none; }
+  header .navbar-toggler span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #1A77CD;
+    margin-bottom: 5px; }
+    header .navbar-toggler span:last-of-type {
+      margin-bottom: 0; }
+header .navbar-nav {
+  background-color: #fff; }
+  @media (min-width: 768px) {
+    header .navbar-nav li {
+      margin-left: 30px; } }
+  @media (min-width: 992px) {
+    header .navbar-nav li {
+      margin-left: 51px; } }
+  header .navbar-nav li a {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+    padding: 10px; }
 
 /*# sourceMappingURL=theme.css.map */
