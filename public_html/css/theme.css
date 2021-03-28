@@ -28,7 +28,7 @@ html {
   --bs-info: #11284B;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #f6f5f6;
   --bs-dark: #212529;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -1884,15 +1884,15 @@ progress {
   border-color: #dfc2c4; }
 
 .table-light {
-  --bs-table-bg: #f8f9fa;
-  --bs-table-striped-bg: #ecedee;
+  --bs-table-bg: #f6f5f6;
+  --bs-table-striped-bg: #eae9ea;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dfe0e1;
+  --bs-table-active-bg: #dddddd;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e5e6e7;
+  --bs-table-hover-bg: #e4e3e4;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #dfe0e1; }
+  border-color: #dddddd; }
 
 .table-dark {
   --bs-table-bg: #212529;
@@ -2725,27 +2725,27 @@ textarea.form-control-lg {
 
 .btn-light {
   color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa; }
+  background-color: #f6f5f6;
+  border-color: #f6f5f6; }
   .btn-light:hover {
     color: #000;
-    background-color: #f9fafb;
-    border-color: #f9fafb; }
+    background-color: #f7f7f7;
+    border-color: #f7f6f7; }
   .btn-check:focus + .btn-light, .btn-light:focus {
     color: #000;
-    background-color: #f9fafb;
-    border-color: #f9fafb;
-    box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5); }
+    background-color: #f7f7f7;
+    border-color: #f7f6f7;
+    box-shadow: 0 0 0 0.25rem rgba(209, 208, 209, 0.5); }
   .btn-check:checked + .btn-light, .btn-check:active + .btn-light, .btn-light:active, .btn-light.active, .show > .btn-light.dropdown-toggle {
     color: #000;
-    background-color: #f9fafb;
-    border-color: #f9fafb; }
+    background-color: #f8f7f8;
+    border-color: #f7f6f7; }
     .btn-check:checked + .btn-light:focus, .btn-check:active + .btn-light:focus, .btn-light:active:focus, .btn-light.active:focus, .show > .btn-light.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5); }
+      box-shadow: 0 0 0 0.25rem rgba(209, 208, 209, 0.5); }
   .btn-light:disabled, .btn-light.disabled {
     color: #000;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa; }
+    background-color: #f6f5f6;
+    border-color: #f6f5f6; }
 
 .btn-dark {
   color: #fff;
@@ -2886,22 +2886,22 @@ textarea.form-control-lg {
     background-color: transparent; }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa; }
+  color: #f6f5f6;
+  border-color: #f6f5f6; }
   .btn-outline-light:hover {
     color: #000;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa; }
+    background-color: #f6f5f6;
+    border-color: #f6f5f6; }
   .btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
-    box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5); }
+    box-shadow: 0 0 0 0.25rem rgba(246, 245, 246, 0.5); }
   .btn-check:checked + .btn-outline-light, .btn-check:active + .btn-outline-light, .btn-outline-light:active, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show {
     color: #000;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa; }
+    background-color: #f6f5f6;
+    border-color: #f6f5f6; }
     .btn-check:checked + .btn-outline-light:focus, .btn-check:active + .btn-outline-light:focus, .btn-outline-light:active:focus, .btn-outline-light.active:focus, .btn-outline-light.dropdown-toggle.show:focus {
-      box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5); }
+      box-shadow: 0 0 0 0.25rem rgba(246, 245, 246, 0.5); }
   .btn-outline-light:disabled, .btn-outline-light.disabled {
-    color: #f8f9fa;
+    color: #f6f5f6;
     background-color: transparent; }
 
 .btn-outline-dark {
@@ -3994,11 +3994,11 @@ textarea.form-control-lg {
     color: #6a1a21; }
 
 .alert-light {
-  color: #636464;
-  background-color: #fefefe;
-  border-color: #fdfdfe; }
+  color: #626262;
+  background-color: #fdfdfd;
+  border-color: #fcfcfc; }
   .alert-light .alert-link {
-    color: #4f5050; }
+    color: #4e4e4e; }
 
 .alert-dark {
   color: #141619;
@@ -4265,15 +4265,15 @@ textarea.form-control-lg {
     border-color: #842029; }
 
 .list-group-item-light {
-  color: #636464;
-  background-color: #fefefe; }
+  color: #626262;
+  background-color: #fdfdfd; }
   .list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {
-    color: #636464;
-    background-color: #e5e5e5; }
+    color: #626262;
+    background-color: #e4e4e4; }
   .list-group-item-light.list-group-item-action.active {
     color: #fff;
-    background-color: #636464;
-    border-color: #636464; }
+    background-color: #626262;
+    border-color: #626262; }
 
 .list-group-item-dark {
   color: #141619;
@@ -5035,9 +5035,9 @@ textarea.form-control-lg {
     color: #b02a37; }
 
 .link-light {
-  color: #f8f9fa; }
+  color: #f6f5f6; }
   .link-light:hover, .link-light:focus {
-    color: #f9fafb; }
+    color: #f8f7f8; }
 
 .link-dark {
   color: #212529; }
@@ -5330,7 +5330,7 @@ textarea.form-control-lg {
   border-color: #dc3545 !important; }
 
 .border-light {
-  border-color: #f8f9fa !important; }
+  border-color: #f6f5f6 !important; }
 
 .border-dark {
   border-color: #212529 !important; }
@@ -6171,7 +6171,7 @@ textarea.form-control-lg {
   color: #dc3545 !important; }
 
 .text-light {
-  color: #f8f9fa !important; }
+  color: #f6f5f6 !important; }
 
 .text-dark {
   color: #212529 !important; }
@@ -6225,7 +6225,7 @@ textarea.form-control-lg {
   background-color: #dc3545 !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #f6f5f6 !important; }
 
 .bg-dark {
   background-color: #212529 !important; }
@@ -10229,5 +10229,11 @@ header .navbar-nav {
     font-size: 1.6rem;
     line-height: 2.2rem;
     letter-spacing: 1.4px; }
+
+.team {
+  padding: 67px 0 61px; }
+  .team a.fab {
+    font-size: 3rem;
+    color: #596d87; }
 
 /*# sourceMappingURL=theme.css.map */
